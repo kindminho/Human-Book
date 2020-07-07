@@ -1,0 +1,22 @@
+package team.everywhere.humanbook;
+
+public class Chat {
+    String email;
+    String text;
+
+    public String getEmail() {    // 마우스 우클릭 → Generate → Getter and Setter
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+}
